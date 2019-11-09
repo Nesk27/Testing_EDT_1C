@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="a3103664-7865-4e51-938d-9d215787fbd8">
+	<producedTypes>
+		<objectType typeId="5bfb0cbb-3208-4417-93ed-881c6db21f5e"
+			valueTypeId="ec7a30d6-54bb-4183-bb7d-6d77ad6f3a0d" />
+		<refType typeId="2b9b6318-b392-4d22-bd4a-d567dc4bf812"
+			valueTypeId="21165856-2f77-4271-88d3-5671bfd97c93" />
+		<selectionType
+			typeId="55861de0-f634-4906-9cf3-de586d6e2cf9"
+			valueTypeId="1dbbd934-9c9a-44a6-bc50-85eaf0501e44" />
+		<listType typeId="da1c6605-0a2b-4932-affd-db77ef7f8213"
+			valueTypeId="cc1c85cf-e88e-4eca-9097-69d1df4a38f5" />
+		<managerType typeId="475aabef-3872-4e2d-a450-33b65798158d"
+			valueTypeId="5c8e024a-9dd4-4b13-a527-1e50a6b1160a" />
+	</producedTypes>
+	<name>Склады</name>
+	<synonym>
+		<key>ru</key>
+		<value>Склады</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+	<inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<attributes uuid="f01c7502-33bf-4df9-8404-0673e9f558ac">
+		<name>Адрес</name>
+		<synonym>
+			<key>ru</key>
+			<value>Адрес</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers />
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+</mdclass:Catalog>
