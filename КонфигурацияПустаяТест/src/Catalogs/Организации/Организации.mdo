@@ -1,93 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7ced14d-c9b8-480c-a1f5-32f1f704a145">
-  <producedTypes>
-    <objectType typeId="a0c2078b-d8be-40b0-9899-8a51ccf6bfa7" valueTypeId="3efb1d17-f780-4603-8c36-b8fcb1db7945"/>
-    <refType typeId="e8873a0a-9e1f-4528-9b7f-2db3051c203f" valueTypeId="3ae4eb96-2141-4c49-9046-6de55b4da648"/>
-    <selectionType typeId="ce691921-3166-4422-b131-8104c75ef175" valueTypeId="29beb402-3d17-44b3-847a-9bee6171c0c6"/>
-    <listType typeId="52916046-0d48-4d5f-a2a1-33ac9165d176" valueTypeId="602202a3-6cf6-4557-af5d-168a9275783c"/>
-    <managerType typeId="062562ae-0e3c-4265-a2eb-ab39c2d64c70" valueTypeId="12626a51-473d-4bee-8b12-f7e9e4fe51e8"/>
-  </producedTypes>
-  <name>Организации</name>
-  <synonym>
-    <key>ru</key>
-    <value>Организации</value>
-  </synonym>
-  <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>Use</createOnInput>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <fullTextSearch>Use</fullTextSearch>
-  <levelCount>2</levelCount>
-  <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
-  <codeType>String</codeType>
-  <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
-  <editType>InDialog</editType>
-  <choiceMode>BothWays</choiceMode>
-  <attributes uuid="dad27cfb-4727-4cf2-a5fb-7cf8405e17c8">
-    <name>ОГРН</name>
-    <synonym>
-      <key>ru</key>
-      <value>ОГРН</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>13</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="7a82828e-63b2-45df-8c5f-040b57bca20a">
-    <name>ЮридическийАдрес</name>
-    <synonym>
-      <key>ru</key>
-      <value>Юридический адрес</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5ceeff50-2c2e-46db-b3d1-eff3902f7024">
-    <name>ИНН</name>
-    <synonym>
-      <key>ru</key>
-      <value>ИНН</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8cc566ce-e65d-4a5b-b75f-785ee7a8b906">
-    <name>Город</name>
-    <synonym>
-      <key>ru</key>
-      <value>Город</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+<mdclass:Catalog
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="d7ced14d-c9b8-480c-a1f5-32f1f704a145">
+	<producedTypes>
+		<objectType typeId="a0c2078b-d8be-40b0-9899-8a51ccf6bfa7"
+			valueTypeId="3efb1d17-f780-4603-8c36-b8fcb1db7945" />
+		<refType typeId="e8873a0a-9e1f-4528-9b7f-2db3051c203f"
+			valueTypeId="3ae4eb96-2141-4c49-9046-6de55b4da648" />
+		<selectionType
+			typeId="ce691921-3166-4422-b131-8104c75ef175"
+			valueTypeId="29beb402-3d17-44b3-847a-9bee6171c0c6" />
+		<listType typeId="52916046-0d48-4d5f-a2a1-33ac9165d176"
+			valueTypeId="602202a3-6cf6-4557-af5d-168a9275783c" />
+		<managerType typeId="062562ae-0e3c-4265-a2eb-ab39c2d64c70"
+			valueTypeId="12626a51-473d-4bee-8b12-f7e9e4fe51e8" />
+	</producedTypes>
+	<name>Организации</name>
+	<synonym>
+		<key>ru</key>
+		<value>Организации</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+	<inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<attributes uuid="dad27cfb-4727-4cf2-a5fb-7cf8405e17c8">
+		<name>ОГРН</name>
+		<synonym>
+			<key>ru</key>
+			<value>ОГРН</value>
+		</synonym>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>13</precision>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="7a82828e-63b2-45df-8c5f-040b57bca20a">
+		<name>ЮридическийАдрес</name>
+		<synonym>
+			<key>ru</key>
+			<value>Юридический адрес</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers />
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="5ceeff50-2c2e-46db-b3d1-eff3902f7024">
+		<name>ИНН</name>
+		<synonym>
+			<key>ru</key>
+			<value>ИНН</value>
+		</synonym>
+		<type>
+			<types>Number</types>
+			<numberQualifiers>
+				<precision>10</precision>
+				<nonNegative>true</nonNegative>
+			</numberQualifiers>
+		</type>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
 </mdclass:Catalog>
